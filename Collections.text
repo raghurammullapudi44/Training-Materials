@@ -344,6 +344,8 @@ E. 2:1:0:0
 F. 2:2:1:1
 G. 4:3:2:1
 
+Ans:C
+
 Question 16
 Consider the following class: 
 public class IntPair 
@@ -371,6 +373,8 @@ c  return a+b;
 d  return a*a;   
 e  return a/2;   
 
+Ans:a,b,d,e
+
 Question 17.
  Consider the following class: 
 public class IntPair 
@@ -397,6 +401,8 @@ b  return a*b;
 c  return a+b;   
 d  return b;   
 e  None of these is invalid.   
+
+Ans:b
 
 Question 18.
 Which of the following are valid implementation of equals() method of a class TestClass? 
@@ -432,7 +438,7 @@ c  3
 d  4   
 e  None of these.   
 
-
+Ans:e
 
 Question 19.
  Which of the following statments are correct regarding the equals() method?
@@ -442,6 +448,8 @@ b  It must be reflexive but need not be transitive.
 c  It must be symmetric and transitive but not reflexive.   
 d  If passed a null, it must return false.  
 e  None of these. 
+
+Ans:e
 
 Question 20.
 
@@ -463,3 +471,4 @@ C. Compilation fails.
 D. The code runs with no output.
 E. An exception is thrown at runtime.
 
+Ans:C
