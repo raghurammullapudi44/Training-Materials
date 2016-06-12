@@ -234,7 +234,7 @@ B. return name.hashCode() + age * 7;
 C. return name.hashCode() + comment.hashCode() /2;
 D. return name.hashCode() + comment.hashCode() / 2 - age * 3;
 
-Ans:A
+Ans:B
 
 Question 11
 Given:
@@ -296,7 +296,7 @@ B. Compilation fails because the private attribute p.name cannot be accessed in 
 C. To work correctly with hash-based data structures, this class must also implement the hashCode  method.
 D. When adding Person objects to a java.util.Set collection, the equals method in line 4 will prevent duplicates.
 
-Ans:C
+Ans:D
 
 Question 14
 Which two statements are true about the hashCode method? (Choose
