@@ -20,7 +20,7 @@ D. A ClassCastException occurs in line 31.
 E. The value of all four objects prints in natural order.
 
 
-
+Ans:A
 
 
 Question 2
@@ -43,7 +43,7 @@ C. Compilation fails.
 D. The code runs with no output.
 E. An exception is thrown at runtime.
 
-
+Ans:C
 
 
 
@@ -69,7 +69,7 @@ E. An exception is thrown at runtime.
 
 
 
-
+Ans:B
 
 
 
@@ -94,7 +94,7 @@ E. Set set = new LinkedHashSet();
 
 
 
-
+Ans:D
 
 
 
@@ -118,7 +118,7 @@ D. banana:apple
 E. carrot:carrot
 F. carrot:banana
 
-
+Ans:C
 
 
 
@@ -147,6 +147,8 @@ F. Compilation fails.
 G. An exception is thrown at runtime.
 
 
+Ans:D
+
 
 Question 7
 1. import java.util.*;
@@ -174,6 +176,8 @@ D. The set variable contains only three elements from the coil
 collection, but the order is NOT guaranteed to be preserved.
 
 
+Ans:D
+
 Question 8
 Given:
 1. public class Score implements Comparable<Score> {
@@ -193,7 +197,7 @@ C. public int compare(Score s1,Score s2){/*more code here*/}
 D. public int compare(Object o1,Object o2){/*more code here*/}
 
 
-
+Ans:A
 
 
 
@@ -207,6 +211,8 @@ A. java.util.Queue
 B. java.util.ArrayList
 C. java.util.LinearList
 D. java.util.LinkedList
+
+Ans:D
 
 Question 10
 Given:
@@ -228,6 +234,8 @@ B. return name.hashCode() + age * 7;
 C. return name.hashCode() + comment.hashCode() /2;
 D. return name.hashCode() + comment.hashCode() / 2 - age * 3;
 
+Ans:A
+
 Question 11
 Given:
 11. public class Key {
@@ -246,7 +254,7 @@ D. public boolean equals(Object o)
 E. public boolean compareTo(Key k)
 
 
-
+Ans:A and D
 
 Question 12
 Given:
@@ -271,7 +279,7 @@ D. If a HashSet contains more than one Person object with
 name=”Fred”, then removing another Person, also with name=”Fred”,
 will remove them all.
 
-
+Ans:A
 
 Question 13
 Given:
@@ -288,6 +296,8 @@ B. Compilation fails because the private attribute p.name cannot be accessed in 
 C. To work correctly with hash-based data structures, this class must also implement the hashCode  method.
 D. When adding Person objects to a java.util.Set collection, the equals method in line 4 will prevent duplicates.
 
+Ans:C
+
 Question 14
 Which two statements are true about the hashCode method? (Choose
 two.)
@@ -296,6 +306,10 @@ B. The hashCode method is used by the java.util.SortedSet collection class to or
 C. The hashCode method for a given class can be used to test for object inequality, but NOT object equality, for that class.
 D. The only important characteristic of the values returned by a hashCode method is that the distribution of values must follow a Gaussian distribution.
 E. The hashCode method is used by the java.util.HashSet collection class to group the elements within that set into hash buckets for swift retrieval.
+
+
+Ans:C,E
+
 
 Question 15
 1. import java.util.*;
