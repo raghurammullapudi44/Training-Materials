@@ -279,7 +279,7 @@ D. If a HashSet contains more than one Person object with
 name=”Fred”, then removing another Person, also with name=”Fred”,
 will remove them all.
 
-Ans:A
+Ans:B
 
 Question 13
 Given:
@@ -296,7 +296,7 @@ B. Compilation fails because the private attribute p.name cannot be accessed in 
 C. To work correctly with hash-based data structures, this class must also implement the hashCode  method.
 D. When adding Person objects to a java.util.Set collection, the equals method in line 4 will prevent duplicates.
 
-Ans:D
+Ans:C
 
 Question 14
 Which two statements are true about the hashCode method? (Choose
