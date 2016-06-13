@@ -67,8 +67,6 @@ C. Compilation fails.
 D. The code runs with no output.
 E. An exception is thrown at runtime.
 
-
-
 Ans:B
 
 
@@ -119,8 +117,6 @@ F. carrot:banana
 Ans:C
 
 
-
-
 Question 6
 Given:
 1. import java.util.*;
@@ -143,7 +139,6 @@ D. 3
 E. 4
 F. Compilation fails.
 G. An exception is thrown at runtime.
-
 
 Ans:D
 
@@ -173,7 +168,6 @@ but the order is NOT guaranteed to be preserved.
 D. The set variable contains only three elements from the coil
 collection, but the order is NOT guaranteed to be preserved.
 
-
 Ans:D
 
 Question 8
@@ -195,9 +189,7 @@ C. public int compare(Score s1,Score s2){/*more code here*/}
 D. public int compare(Object o1,Object o2){/*more code here*/}
 
 
-Ans:A
-
-
+Ans:B
 
 
 Question 9
@@ -251,7 +243,6 @@ C. public int compareTo(Object o)
 D. public boolean equals(Object o)
 E. public boolean compareTo(Key k)
 
-
 Ans:A and D
 
 Question 12
@@ -294,7 +285,7 @@ B. Compilation fails because the private attribute p.name cannot be accessed in 
 C. To work correctly with hash-based data structures, this class must also implement the hashCode  method.
 D. When adding Person objects to a java.util.Set collection, the equals method in line 4 will prevent duplicates.
 
-Ans:C
+Ans:A
 
 Question 14
 Which two statements are true about the hashCode method? (Choose
@@ -304,7 +295,6 @@ B. The hashCode method is used by the java.util.SortedSet collection class to or
 C. The hashCode method for a given class can be used to test for object inequality, but NOT object equality, for that class.
 D. The only important characteristic of the values returned by a hashCode method is that the distribution of values must follow a Gaussian distribution.
 E. The hashCode method is used by the java.util.HashSet collection class to group the elements within that set into hash buckets for swift retrieval.
-
 
 Ans:C,E
 
@@ -342,7 +332,7 @@ E. 2:1:0:0
 F. 2:2:1:1
 G. 4:3:2:1
 
-Ans:C
+Ans:F
 
 Question 16
 Consider the following class: 
@@ -400,7 +390,7 @@ c  return a+b;
 d  return b;   
 e  None of these is invalid.   
 
-Ans:b
+Ans:e
 
 Question 18.
 Which of the following are valid implementation of equals() method of a class TestClass? 
@@ -447,7 +437,7 @@ c  It must be symmetric and transitive but not reflexive.
 d  If passed a null, it must return false.  
 e  None of these. 
 
-Ans:e
+Ans:d
 
 Question 20.
 
