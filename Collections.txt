@@ -92,9 +92,7 @@ C. Set set = new SortedSet();
 D. List set = new SortedList();
 E. Set set = new LinkedHashSet();
 
-
-
-Ans:D
+Ans:A
 
 
 
