@@ -20,7 +20,7 @@ D. A ClassCastException occurs in line 31.
 E. The value of all four objects prints in natural order.
 
 
-Ans:A
+Ans:C
 
 
 Question 2
