@@ -43,6 +43,8 @@ C.	It will print 800
 D.	It will print 200
 E.	It will print  400
 
+Ans:E
+
 Q 2 Identify the correct constructs.
 Select 1 Option
 A.
@@ -90,6 +92,8 @@ try {
 }
 catch(Exception e){ x = 9; }
 
+Ans:A
+
 Q3
 Consider the following code ... 
 class A 
@@ -118,6 +122,8 @@ B.	This will compile if 'throws Exception' is added at line //2
 C.	This will compile if 'throws Exception' is added at line //4
 D.	This will compile if 'throws Exception' is added at line //2 as well as //4
 E.	This will compile if  line marked // 0 is enclosed in a try - catch block.
+
+Ans:D
 
 
 Q4 
@@ -161,6 +167,8 @@ C.	MyException thrown Done
 D.	MyException3 thrown Done
 E.	It fails to compile
 
+Ans:E
+
 
 Q 5
 Consider the following hierarchy of Exception classes :
@@ -177,6 +185,8 @@ B.	It is ok if it declares just 'throws ArrayIndexOutOfBoundsException'
 C.	It must declare 'throws ArrayIndexOutOfBoundsException, StringIndexOutOfBoundsException'
 D.	It is ok if it declares just 'throws IndexOutOfBoundsException'
 E.	It does not need to declare any throws clause.
+
+Ans:B,E and D
 
 
 Q6
@@ -207,6 +217,9 @@ B.	If IOException gets thrown at line1, then the whole method will end up throwi
 C.	If IOException gets thrown at line1, then the whole method will end up throwing InstantiationException()
 D.	If no exception is thrown at line1, then the whole method will end up throwing CloneNotSupportedException.
 E.	If SQLException gets thrown at line1, then the whole method will end up throwing InstantiationException()
+
+
+Ans:B and D
 
 
 Q7: What will following code print when run.?
@@ -249,6 +262,8 @@ C.	123
 D.	2
 E.	It will throw an exception at runtime.
 
+Ans:A
+
 Q8
 Assume that a method named 'method1' contains code which may raise a non-runtime (checked) Exception.
 What is the correct way to declare that method so that it indicates that it expects the caller to handle that exception?
@@ -258,6 +273,8 @@ B.	public void method1() throw Exception
 C.	public void method1() throw new Exception
 D.	public void method1() throws Exception
 E.	public void method1()
+
+Ans:A and c
 
 Q9 : What will following code print when run.?
 public class TestClass
@@ -294,6 +311,8 @@ C.	The program will print 'm1 Starts', 1, 2 in that order.
 D.	The program will print 'm1 Starts', 1, 2 and 4 in that order.
 E.	'END' will not be printed.
 
+Ans:A , B and E
+
 Q10.
 What will happen when the following program is compiled and run?
 
@@ -320,6 +339,8 @@ A.	It will print EMPTY.
 B.	It will print NOT EMPTY.
 C.	It will throw NullPointerException.
 D.	It will print EMPTY if || is replaced with |.
+
+Ans:C
 
 Q11
 Given the following program, which of these statements are true?
@@ -348,6 +369,8 @@ B.	If run with one argument, the program will only print 'The end'.
 C.	If run with one argument, the program will print 'Exception in Main' and 'The end'.
 D.	If run with one argument, the program will only print 'Exception in Main'.
 E.	Only one of the above is correct.
+
+Ans:A and C
 
 Q  12
 What will be the output when the following code is compiled and run?
@@ -378,6 +401,8 @@ B.	It will print E1 and Finally.
 C.	It will print E1, E and Finally.
 D.	It will print E and Finally.
 E.	It will print Finally.
+
+Ans:B
 
 Q13
 Which of these statements are true?
@@ -415,6 +440,8 @@ C.	The program will print 'Test param1' on option b.
 D.	It will print 'param1 param2' on option c.
 E.	It will not print anything on option a.
 
+Ans:C and D
+
 Q15
 What letters, and in what order, will be printed when the following program is compiled and run?
 public class FinallyTest
@@ -443,5 +470,5 @@ D.	It will print A, B and C in that order.
 E.	Compile time error.
 
 
-`
+`Ans:C
 
