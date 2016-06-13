@@ -414,6 +414,8 @@ C.	The main method of a program can declare that it throws checked exceptions.
 D.	A method declaring that it throws a certain exception class may throw instances of any subclass of that exception class.
 E.	finally blocks are executed if and only if an exception gets thrown while inside the corresponding try block.
 
+Ans:C and D
+
 Q 14
 Given the class
 // Filename: Test.java
