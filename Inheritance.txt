@@ -28,6 +28,8 @@ c  8  Accelerate : SportsCar
 d  9  Accelerate : SportsCar    
 e  None of the above.   
 
+Ans:C
+
 Q2.
 Which statements, when inserted at line 1, will cause a runtime exception ? 
 class B {}
@@ -50,6 +52,8 @@ c.  b1 = (B1) b;
 d.  b2 = (B2) b1;   
 e.  b1 = (B) b1;   
 
+Ans:C
+
 Q3.
 public class Plant {
 private String name;
@@ -66,6 +70,8 @@ B. The code will compile if public Tree() { Plant(); } is added to the Tree clas
 C. The code will compile if public Plant() { Tree(); } is added to the Plant class.
 D. The code will compile if public Plant() { this("fern"); } is added to the Plant class.
 E. The code will compile if public Plant() { Plant("fern"); } is added to the Plant class.
+
+Ans:D
 
 Q4.
 class Super {
@@ -84,6 +90,8 @@ B. Change line 2 to :protected int a;
 C. Change line 13 to :public Sub() { this(5); }
 D. Change line 13 to :public Sub() { super(5); }
 E. Change line 13 to :public Sub() { super(a); }
+
+Ans:C and D
 
 Q5.
 class ClassA {
@@ -108,6 +116,8 @@ C. All constructors must be declared public.
 D. Constructors CANNOT use the private modifier.
 E. Constructors CANNOT use the protected modifier.
 
+Ans:A
+
 6.
 abstract class A {
 11. abstract void a1();
@@ -128,6 +138,8 @@ D. z.a1();
 E. y.c1();
 F. x.a1();
 
+Ans:A,B,D and F
+
 7.
 class Animal { public String noise() { return "peep"; } }
 12. class Dog extends Animal {
@@ -147,7 +159,7 @@ C. meow
 D. Compilation fails.
 E. An exception is thrown at runtime.
 
-
+Ans:E
 
 8.
 interface Jumper { public void jump(); }
@@ -174,6 +186,8 @@ E. Cat has-a Animal
 F. Beagle has-a Tail
 G. Beagle has-a Jumper
 
+Ans:B,C and F
+
 9.
 public class SuperCalc {
 11. protected static int multiply(int a, int b) { return a * b;}
@@ -197,6 +211,8 @@ D. Compilation fails because of an error in line 21.
 E. Compilation fails because of an error in line 22.
 F. Compilation fails because of an error in line 31.
 
+Ans:E
+
 10.
 class TestA {
 2. public void start() { System.out.println("TestA"); }
@@ -212,6 +228,8 @@ A. TestA
 B. TestB
 C. Compilation fails.
 D. An exception is thrown at runtime.
+
+Ans:B
 
 11.
 class A {
@@ -229,6 +247,9 @@ B. The code runs with no output.
 C. Compilation fails because of an error in line 12.
 D. Compilation fails because of an error in line 15.
 E. Compilation fails because of an error in line 18.
+
+
+Ans:A
 
 12.
 class Clidders {
@@ -251,8 +272,7 @@ D. Flip a Clidlet
 Flip a Clidder
 E. Compilation fails.
 
-
-
+Ans:E
 
 13.
 class Zing {
@@ -266,6 +286,8 @@ B. Zing is-a Woop and has-a Hmpf.
 C. Hmpf has-a Woop and Woop is-a Zing.
 D. Woop has-a Hmpf and Woop is-a Zing.
 E. Zing has-a Hmpf and Zing is-a Woop.
+
+Ans:D
 
 14.
 What would be the result of attempting to compile and run the following code?
@@ -296,6 +318,8 @@ c  The code will compile without errors and will print 80 when run.
 d  The code will compile without errors and will print 40 when run.   
 e  The code will compile without errors and will print 20 when run. 
 
+Ans:C
+
 15.
 Consider the following  class... 
 class MyString extends String
@@ -307,3 +331,4 @@ Select 1 correct option.
 a  True   
 b  False 
 
+Ans:A
