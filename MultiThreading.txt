@@ -170,6 +170,7 @@ E. run.
 java.lang.RuntimeException: Problem
 End of method.
 
+Ans:D,E
 
 Question 8
 Given:
@@ -184,6 +185,8 @@ A. Compilation fails.
 B. An exception is thrown at runtime.
 C. The code executes normally and prints “sleep”.
 D. The code executes normally, but nothing is printed.
+
+Ans:C
 
 Question 9
 Given:
@@ -207,6 +210,8 @@ B. An exception is thrown at runtime.
 C. The code executes and prints “StartedComplete”.
 D. The code executes and prints “StartedComplete0123”.
 E. The code executes and prints “Started0l23Complete”.
+
+AnsL:E
 
 Question 10
 
@@ -263,6 +268,8 @@ E. StartMain Start1 Error Start2 EndMain End2 End1
 F. StartMain Start1 Start2 Error End2 EndMain End1
 G. StartMain Start1 EndMain End1 Start2 Error End2
 
+Ans:G
+
 Question 11
 Given:
 public class NamedCounter {
@@ -281,6 +288,8 @@ B. declare getName() using the synchronized keyword
 C. declare getCount() using the synchronized keyword
 D. declare the constructor using the synchronized keyword
 E. declare increment() using the synchronized keyword
+
+Ans:A,C and E
 
 Question 12
 Click the Exhibit button:
@@ -313,6 +322,8 @@ B. 0, 2, 4, 6, 8, 10, 2, 4,
 C. 0, 2, 4, 6, 8, 10, 12, 14,
 D. 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14,
 E. 0, 2, 4, 6, 8, 10, 12, 14, 0, 2, 4, 6, 8, 10, 12, 14,
+
+Ans:A and C
 
 Question 13
 Click the Exhibit button.
@@ -350,6 +361,8 @@ E. The code may rum with output “A B C A B C A B C “, then exit.
 F. The code may ruin with output “A A A B C A B C C “, then exit.
 G. The code may ruin with output “A B C A A B C A B C “, then exit.
 
+Ans:E and G
+
 Question 14
 Given:
 1. public class TestFive {
@@ -376,6 +389,8 @@ block.
 E. Wrap the for loop code inside the go() method with a synchronized
 block synchronized(this) { // for loop code here }.
 
+Ans:A and D
+
 Question 15
 Which three will compile and run without exception? (Choose three.)
 A. private synchronized Object o;
@@ -391,3 +406,5 @@ F. void go() {
 Object o = new Object();
 synchronized(o) { /* code here */ }
 }
+
+Ans:C,E and F
