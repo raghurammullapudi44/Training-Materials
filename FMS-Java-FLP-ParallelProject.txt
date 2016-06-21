@@ -85,7 +85,6 @@ Only change will be – Now IFilmDao interface will be implemented by class Film
 Since, now system will be storing data into database, in place of array list.
 
 **In Phase 3 (Convert the application as web application – using Servlet and AngularJS)**
-
 Changes
  No change in business and persistent layer – but view layer will be changed completely
  No need of BootClass – as now web.xml will be the starting point of application and menu will be available on the index page (welcome page (jsp) of application)
