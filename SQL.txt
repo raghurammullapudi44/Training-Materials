@@ -1,0 +1,76 @@
+ASSIGNMENT LIST
+
+1. Display all the records of film table.
+
+2. Display title & description of film table.
+
+3. Display title, rental_rate & a computed column where rental_rate is computed by 20% from film table.
+
+4. In the previous queary give increased rent as column name to the computed column.
+
+5. Display release_year colmn from the film table. Do not allow duplicates records.
+
+6. Display all films where rental_duration is 6.
+
+7. Show details of a film titled with African egg.
+
+8. Display all films where rental_rate < 1.
+
+9. Display all films where rental_rate is between 2 & 3.
+
+10. Display records of films having film_id 220 & 30.
+
+11. A. display records from actor table. Where first_name starts with s.
+B. where first name contains n at second position.
+C. first name contains o.
+D. first name contains a.
+
+12. Display records from rental table where return date is null.
+
+13. A. display record of film table where rental_duration is 6 & rental_rate <1.
+
+B. display record of film table where rental_duration is 6 or rental_rate <1.
+
+14. Display records of film table where rental_duration is other than 3,4,5.
+
+15. A. Display first_name and last_name from the customer table & sort the records on last_name in the ascending order.
+
+B. sort the records on last_name in the descending order.
+
+16. Display the rental_rate and title from film table sort the records on descending of rental_rate, and if the rental_rate is same for multiple rows then records should be sorted on the title ascending order.
+
+17. Display title, rental_duration & revised rent.
+Compute revised rent as follows:
+If r_d is 6  increase the rent by 30%
+If r_d is 5 increase the rent by 20%
+If r_d is 4 increase the rent by 10%
+For other r_d keep the rental_rate unchanged.
+
+18. display avg rental_rate, max rental_rate, minimum rental_rate.
+
+19. Count no.of films
+
+20. Count no of films by rating.
+
+21. Count films by rating & by rental_duration.
+
+22. In the previous queary display only those records where rental_duration is greater than 3.
+
+23. Display the title & language name of every film.
+A. Use usin g clause.
+B. Use table aliases.
+C. Using on clause.
+
+24. Displaqy first_name, last_name & city of a customer.
+
+25. Write a queary to count the no. of cities in a country.
+
+26. Write left outer join queary by joining customer and address table.
+
+27. Join customer & address table use right outer join.
+
+28. Display records from film table where rental_duration is equal to rental_duration of movie ali forever.
+
+29. Display all records from film where rental_duration is maximum.
+
+30. Display all records from film where rental_duration is second highest.
