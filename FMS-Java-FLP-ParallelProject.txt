@@ -77,3 +77,54 @@ System should show (display) film list in a tabular format (one row for each fil
  System must show appropriate massage on all activity (whether activity is successful or failure)
  User must have proper menu to select the activity (create, modify, search, view, remove) that user want to perform.
 
+----------------------------------------------------------------------------------------------------------------------
+
+**In Phase 2 (introduction of JDBC and My-SQL database)**
+Changes
+Only change will be – Now IFilmDao interface will be implemented by class FilmDaoImplForDB (instead of FilmDaoImplForList).
+Since, now system will be storing data into database, in place of array list.
+
+**In Phase 3 (Convert the application as web application – using Servlet and AngularJS)**
+
+Changes
+ No change in business and persistent layer – but view layer will be changed completely
+ No need of BootClass – as now web.xml will be the starting point of application and menu will be available on the index page (welcome page (jsp) of application)
+ No need of UserInteraction class – as now Servlet will capture data from user (request.getparameter(“parameterName”). The Servlet class will send data to next layer in a similar way (as userInteraction class), i.e. in case of For Create and Modify - System will capture date (validate it) and create a HashMap and pass it to next Layer
+ Also now the Validate class will not be in use; all fields will be validated at client side using JavaScript
+
+TECHNOLOGY AND ARCHITECTURE
+TECHNICAL SPECIFICATIONS - Software Requirement:
+ Spring Source Framework 2.5.2
+ Tomcat Server 6
+ My SQL 5.0 (From phase 2)
+ JDK 1.6
+
+**Phase 1**
+**Only Core Java**
+Special attention on –
+Collection API
+Scanner
+Calender
+RegEx
+Proper package structuring
+
+
+**Phase 2**
+**Database**
+JDBC
+My SQL
+
+
+**Phase 3**
+**Web based**
+HTML (front end)
+Java Script (Specially for validation)
+JSP
+Servlet
+
+
+**Phase 4**
+Spring MVC based
+Spring MVC
+IoC
+Spring JDBC
