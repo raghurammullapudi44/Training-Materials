@@ -10,7 +10,6 @@ public class Department
 	@Id private int departmentId;
 	private String departmentName;
 	@OneToMany(mappedBy = "department")
-	@JoinColumn(name="departmentId")
 	private Set<Employee> employees;
 	
 	public Department()
