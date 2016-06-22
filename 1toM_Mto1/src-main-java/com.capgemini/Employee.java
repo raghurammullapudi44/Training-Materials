@@ -62,6 +62,6 @@ public class Employee {
 	@Override
 	public String toString() 
 	{
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ",[departmentID="+ department.getDepartmentId() + ",departmentName="+ department.getDepartmentName() +",employees="+ department.getEmployeesCount()+" ]]";
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ",[departmentID="+ department.getDepartmentId() + ",departmentName="+ department.getDepartmentName() +",employees="+ department.getEmployees() +" ]]";
 	}
 }
