@@ -14,7 +14,7 @@ public class Department
 	
 	public Department()
 	{
-		
+	
 	}
 	
 	public Department(int departmentId)
