@@ -8,6 +8,7 @@ public class Employee {
 	private String name;
 	private int salary;
 	@ManyToOne
+	@JoinColumn(name="departmentId",insertable=true,updatable=true,nullable=false)
 	private Department department;
 
 	public Employee()
@@ -62,6 +63,6 @@ public class Employee {
 	@Override
 	public String toString() 
 	{
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ",[departmentID="+ department.getDepartmentId() + ",departmentName="+ department.getDepartmentName() +",employees="+ department.getEmployees() +" ]]";
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ",[departmentID="+ department.getDepartmentId() + ",departmentName="+ department.getDepartmentName() +" ]]";
 	}
 }
