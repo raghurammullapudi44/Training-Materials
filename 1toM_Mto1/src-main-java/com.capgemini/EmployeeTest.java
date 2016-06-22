@@ -27,6 +27,16 @@ public class EmployeeTest
 		em.getTransaction().commit();
 		System.out.println("Persisted "+emp1);
 		
+		em.getTransaction().begin();
+		Department dep1=service.createDepartment(21, "chemistry");
+		em.getTransaction().commit();
+		System.out.println("Persisted "+dep1);
+		
+		em.getTransaction().begin();
+		Employee emp2 = service.createEmployee(55555, "viswanath", 80000,dep1);
+		em.getTransaction().commit();
+		System.out.println("Persisted "+emp2);
+		
 		emp= service.findEmployee(50948);
 		System.out.println("Found "+emp);
 		
