@@ -45,9 +45,7 @@ public class Department
 	}
 
 	public void setEmployees(Employee emp) {
-		System.out.println(employees.size());
-		employees.add(emp);
-		System.out.println(employees.size());
+		
 	}
 
 
