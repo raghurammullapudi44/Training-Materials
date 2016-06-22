@@ -9,7 +9,8 @@ public class Department
 
 	@Id private int departmentId;
 	private String departmentName;
-	@OneToMany
+	@OneToMany(mappedBy = "department")
+	@JoinColumn(name="departmentId")
 	private Set<Employee> employees;
 	
 	public Department()
@@ -51,7 +52,7 @@ public class Department
 
 	@Override
 	public String toString() {
-		return "Department [departmentId=" + departmentId + ", departmentName=" + departmentName + ",employees="+employees+"]";
+		return "Department [departmentId=" + departmentId + ", departmentName=" + departmentName + "]";
 	}
 	
 }
